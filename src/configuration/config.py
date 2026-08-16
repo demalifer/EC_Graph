@@ -17,9 +17,9 @@ RAW_DATA_FILE = str(RAW_DATA_DIR / 'data.json')
 MODEL_NAME = 'google-bert/bert-base-chinese'
 
 #3. 超参数
-BATCH_SIZE = 8
+BATCH_SIZE = 2
 EPOCHS = 5
-LEARNING_RATE = 1e-5
+LEARNING_RATE = 5e-5
 SAVE_STEPS = 20
 
 # 4.NER 任务分类标签
