@@ -44,7 +44,7 @@ data_collator = DataCollatorForTokenClassification(
     return_tensors='pt'
 )
 
-# 训练参数
+# 5. 训练参数
 args = TrainingArguments(
     output_dir=str(CHECKPOINT_DIR / NER_DIR),
     logging_dir=str(run_log_dir),
