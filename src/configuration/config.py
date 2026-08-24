@@ -22,5 +22,18 @@ EPOCHS = 5
 LEARNING_RATE = 5e-5
 SAVE_STEPS = 20
 
-# 4.NER 任务分类标签
+# 4. NER 任务分类标签
 LABELS = ['B', 'I', 'O']
+
+# 5. 数据库连接
+MYSQL_CONFIG = {
+    'host': 'localhost',
+    'port': 3306,
+    'user': 'root',
+    'password': '020410',
+    'database': 'gmall',
+}
+NEO4J_CONFIG = {
+    'uri': 'neo4j://localhost:7687',
+    'auth': ('neo4j', '12345678'),
+}
