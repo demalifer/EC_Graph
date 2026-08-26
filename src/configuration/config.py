@@ -12,6 +12,9 @@ PROCESSED_DATA_DIR = DATA_DIR / NER_DIR / 'processed'
 LOG_DIR = ROOT_DIR / 'logs'
 CHECKPOINT_DIR = ROOT_DIR / 'checkpoints'
 
+# web静态目录
+WEB_STATIC_DIR = ROOT_DIR / 'src' / 'web' / 'static'
+
 # 2. 数据文件名和模型名称
 RAW_DATA_FILE = str(RAW_DATA_DIR / 'data.json')
 MODEL_NAME = 'google-bert/bert-base-chinese'
@@ -37,3 +40,5 @@ NEO4J_CONFIG = {
     'url': 'neo4j://localhost:7687',
     'auth': ('neo4j', '12345678'),
 }
+
+API_KEY = 'sk-6ff6d32d762d43fbb254212bbddc0393'
