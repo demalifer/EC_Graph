@@ -34,6 +34,6 @@ MYSQL_CONFIG = {
     'database': 'gmall',
 }
 NEO4J_CONFIG = {
-    'uri': 'neo4j://localhost:7687',
+    'url': 'neo4j://localhost:7687',
     'auth': ('neo4j', '12345678'),
 }
