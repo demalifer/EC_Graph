@@ -73,8 +73,8 @@ class IndexUtil:
 
 if __name__ == '__main__':
     index = IndexUtil()
-    #index.create_fulltext_index('trademark_fulltext_index', 'Trademark', 'name')
-    #index.create_vector_index('trademark_vector_index', 'Trademark', 'name', 'embedding')
+    index.create_fulltext_index('trademark_fulltext_index', 'Trademark', 'name')
+    index.create_vector_index('trademark_vector_index', 'Trademark', 'name', 'embedding')
     
     #index_name = 'trademark_vector_index'
     #keyword_index_name = 'trademark_fulltext_index'
